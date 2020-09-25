@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<connectdelay value="5000"/>
+<servers>
+	<server name="127.0.0.222:3868" started="false" hostAddress="127.0.0.222" hostPort="3868" ipChannelType="0" acceptAnonymousConnections="true" maxConcurrentConnectionsCount="10" extraHostAddresseSize="0">
+		<associations>
+			<string value="127.0.0.222:3868"/>
+		</associations>
+	</server>
+</servers>
+<associations>
+	<name value="127.0.0.222:3868"/>
+	<association name="127.0.0.222:3868" assoctype="SERVER" hostPort="0" peerAddress="127.0.0.222" peerPort="3868" serverName="127.0.0.222:3868" ipChannelType="0" extraHostAddresseSize="0"/>
+</associations>

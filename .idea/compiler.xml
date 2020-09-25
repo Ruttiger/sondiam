@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jdiameter-ha-api" />
         <module name="restcomm-diameter-mux-jar" />
         <module name="jdiameter-ha-impl" />
         <module name="jdiameter-api" />
-        <module name="jdiameter-ha-api" />
         <module name="server" />
         <module name="client" />
-        <module name="jdiameter-impl" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="jdiameter" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
